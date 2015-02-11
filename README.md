@@ -35,7 +35,7 @@ Various Semantic Tags
 
 * Aside Tag: The <aside> element defines some content aside from the content it is placed in (like a sidebar).
 
-```html
+```html 
 <p>My family and I visited The Epcot center this summer.</p>
 <aside>
   <h4>Epcot Center</h4>
@@ -43,13 +43,24 @@ Various Semantic Tags
 </aside>
 ```
 
+### Recommended
+
+Use all the semantic tags. 
+* ```html <nav> ```
+* ```html <aside> ```
+* ```html <header> ```
+* ```html <footer> ```
+* ```html <article> ```
+* ```html <section> ```
+* ```html <main> ```
+
 #### Not Recommended
 
 Some of the most commonly misused semantic tags include:
 
 * Blockquote: Should not use it to indent text. Use CSS margins instead.
-* ```html <P> ```: Avoid ```html <p>&nbsp;</p> ``` to add extra space between page elements.
-* ```html <h1> to <h6> ```: The header tags can be used to make fonts bigger and bolder, but if the text is not a headline, it should not be inside a headline tag. Use the font-weight and font-size CSS properties instead.
+* ```html <P> ```: Avoid ```html <p>&nbsp;</p>``` to add extra space between page elements.
+* ```html <h1> to <h6>```: The header tags can be used to make fonts bigger and bolder, but if the text is not a headline, it should not be inside a headline tag. Use the font-weight and font-size CSS properties instead.
 
 ### Further Reference
 * http://webdesign.about.com/od/htmltags/a/why-semantic-html.htm : Various other semantic tags
