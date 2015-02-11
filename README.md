@@ -48,7 +48,7 @@ Various Semantic Tags
 Some of the most commonly misused semantic tags include:
 
 * Blockquote: Should not use it to indent text. Use CSS margins instead.
-* ```html <P>```: Avoid <p>&nbsp;</p> to add extra space between page elements.
+* ```html <P> ```: Avoid ```html <p>&nbsp;</p> ``` to add extra space between page elements.
 * ```html <h1> to <h6> ```: The header tags can be used to make fonts bigger and bolder, but if the text is not a headline, it should not be inside a headline tag. Use the font-weight and font-size CSS properties instead.
 
 ### Further Reference
