@@ -1,6 +1,5 @@
 # Wiki
-## Heading
-Use of Semantics in HTML
+## Use of Semantics in HTML
 
 Semantics have been a part of html in some form or another. It helps you understand what's happening where on the page.
 
@@ -12,41 +11,45 @@ Earlier when <div> was used for pretty much everything, we still implemented sem
 ### Examples
 Various Semantic Tags
 
-* <code> - Code reference
-* <h1> - First level headline
-
+* code - Code reference
+* h1 - First level headline
 * Footer: The <footer> element specifies a footer for a document or section.
 
+```html
 <footer>
   <p>Posted by: Hege Refsnes</p>
   <p>Contact information: <a href="mailto:someone@example.com">
     someone@example.com</a>.</p>
   </footer>
-
+```
 * Nav tag: The <nav> element is intended for large blocks of navigation links. However, not all links in a document should be inside a <nav> element!
 
+```html
 <nav>
 <a href="/html/">HTML</a> |
 <a href="/css/">CSS</a> |
 <a href="/js/">JavaScript</a> |
 <a href="/jquery/">jQuery</a>
 </nav>
+```
 
 * Aside Tag: The <aside> element defines some content aside from the content it is placed in (like a sidebar).
 
+```html
 <p>My family and I visited The Epcot center this summer.</p>
 <aside>
   <h4>Epcot Center</h4>
   <p>The Epcot Center is a theme park in Disney World, Florida.</p>
 </aside>
+```
 
 #### Not Recommended
 
 Some of the most commonly misused semantic tags include:
 
-* <Blockquote>: Should not use it to indent text. Use CSS margins instead.
-* <P>: Avoid <p>&nbsp;</p> to add extra space between page elements.
-* <h1> to <h6>: The header tags can be used to make fonts bigger and bolder, but if the text is not a headline, it should not be inside a headline tag. Use the font-weight and font-size CSS properties instead.
+* Blockquote: Should not use it to indent text. Use CSS margins instead.
+* ```html <P>```: Avoid <p>&nbsp;</p> to add extra space between page elements.
+* ```html <h1> to <h6> ```: The header tags can be used to make fonts bigger and bolder, but if the text is not a headline, it should not be inside a headline tag. Use the font-weight and font-size CSS properties instead.
 
 ### Further Reference
 * http://webdesign.about.com/od/htmltags/a/why-semantic-html.htm : Various other semantic tags
