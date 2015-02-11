@@ -46,13 +46,22 @@ Various Semantic Tags
 ### Recommended
 
 Use all the semantic tags. 
-* ```html <nav> ```
-* ```html <aside> ```
-* ```html <header> ```
-* ```html <footer> ```
-* ```html <article> ```
-* ```html <section> ```
-* ```html <main> ```
+* ```html
+ <nav> 
+  ```
+* ```html 
+<aside> 
+```
+* ```html 
+<header> ```
+* ```html 
+<footer> ```
+* ```html 
+<article> ```
+* ```html 
+<section> ```
+* ```html 
+<main> ```
 
 #### Not Recommended
 
